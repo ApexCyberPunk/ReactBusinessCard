@@ -7,7 +7,7 @@ import Tech from './components/Tech'
 function App() {
   return (
     <>
-<div className='container'>
+<div className='g-container'>
 
     <div className='g-B'>
       <Bio />

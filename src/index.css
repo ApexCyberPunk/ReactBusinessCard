@@ -8,11 +8,14 @@ body{
 
 }
  [class ^= "g-"] {
+    margin: auto;
+    padding: auto;
     display: grid;
-    place-items: center;
+    text-align: center;
+    justify-content: center;
     border: solid 5px gold;
-    padding: 5px;
     border-radius: 50px;
+    
  }
 
 .container {
