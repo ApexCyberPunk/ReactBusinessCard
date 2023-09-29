@@ -7,11 +7,29 @@ import Tech from './components/Tech'
 function App() {
   return (
     <>
-    <Bio />
-    <Contact />
-    <Projects />
-    <Socials />
-    <Tech />
+<div className='container'>
+
+    <div className='Bio'>
+      <Bio />
+    </div>
+
+    <div className='Contact'>
+      <Contact />
+    </div>
+
+    <div className='Projects'>
+      <Projects />
+    </div>
+
+    <div className='Socials'>
+      <Socials />
+    </div>
+
+    <div className='Tech'>
+      <Tech />
+    </div>
+
+</div>
     </>
   )
 
