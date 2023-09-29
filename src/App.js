@@ -9,23 +9,23 @@ function App() {
     <>
 <div className='container'>
 
-    <div className='Bio'>
+    <div className='g-B'>
       <Bio />
     </div>
 
-    <div className='Contact'>
+    <div className='g-C'>
       <Contact />
     </div>
 
-    <div className='Projects'>
+    <div className='g-P'>
       <Projects />
     </div>
 
-    <div className='Socials'>
+    <div className='g-S'>
       <Socials />
     </div>
 
-    <div className='Tech'>
+    <div className='g-T'>
       <Tech />
     </div>
 

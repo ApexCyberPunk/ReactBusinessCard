@@ -15,3 +15,9 @@ const Projects = () => {
 }
 
 export default Projects
+
+
+
+// https://www.youtube.com/watch?v=JmNcErI30Ec&list=PLL97mTOLdxjii5QRB2o0ZYNmylWtbvFvH&index=30
+
+
