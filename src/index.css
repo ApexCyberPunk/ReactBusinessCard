@@ -3,10 +3,11 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: purple;
+    background-color: rgb(97, 4, 97);
     color: gold;
 
 }
+
  [class ^= "g-"] {
     margin: auto;
     padding: auto;
@@ -15,6 +16,7 @@ body{
     justify-content: center;
     border: solid 5px gold;
     border-radius: 50px;
+    justify-self: center;
     
  }
 
@@ -35,12 +37,16 @@ body{
     
 }
 
+a {
+    color: inherit;
+}
+
 img {
     border-radius: 55px;
 }
 
 .container .g-B {
-
+    
     text-align: center;
     grid-area: b;
 }
@@ -50,10 +56,24 @@ img {
     grid-area: c;
 }
 
+.g-C {
+    background-color: gold;
+    color: purple;
+    padding: 0 12em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
 .container .g-P {
  
     text-align: center;
     grid-area: p;
+}
+
+.g-P {
+    border: none;
+    border-bottom: 9px solid gold;
+    margin-bottom: 5px;
 }
 
 .container .g-S {

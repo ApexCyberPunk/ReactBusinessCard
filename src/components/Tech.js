@@ -5,13 +5,13 @@ const Tech = () => {
     <div>
       <h1>Languages used:</h1>
       <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
+        <li><p>HTML5 <i className="fab fa-html5 fa-lg"></i></p></li>
+        <li>CSS <i class="fab fa-css3-alt fa-lg"></i></li>
+        <li> Javascript <i class="fab fa-js fa-ls"></i></li>
       </ol>
       <h2>Frameworks used:</h2>
       <ol>
-        <li>React</li>
+        <li>React <i class="fab fa-react fa-lg"></i></li>
         <li>TailwindCSS</li>
       </ol>
     </div>
