@@ -101,3 +101,57 @@ ul {
     }
     
 }
+
+@media all and (min-width: 1439px) {
+
+    * {
+        text-align: center;
+    }
+    .BioContainer {
+        text-align: center;
+        background-image: url(./images/colorfulsym.png);
+        background-size: 100px;
+        color: gold;
+        font-size: 40px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    .BioTitle {
+        background-color: gold;
+        color: purple;
+        border-radius: 40px;
+        padding: 5px 10px;
+        margin-left: 550px;
+        margin-right: 550px;
+        font-size: 60px;
+        text-decoration: underline;
+    }
+    
+    img {
+        border-radius: 70px;
+    }
+    h2 {
+        text-decoration: underline;
+    }
+    
+    p {
+        background-color: purple;
+        padding: 0 5px;
+        border-radius: 20px;
+    }
+    
+    h2 {
+        background-color: gold;
+        color: purple;
+        margin-left: 250px;
+        margin-left: 550px;
+        margin-right: 550px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin-right: 35px;
+    }
+    
+}

@@ -1,13 +1,14 @@
 import React from 'react'
+import './Projects.css'
 
 const Projects = () => {
   return (
-    <div>
-      <h1><u>Projects:</u></h1>
+    <div className='pContainer'>
+      <h1 className='Projects'><u>Projects:</u></h1>
       <p></p>
 
-      <h1><u>Projects In Development</u></h1>
-      <ol>
+      <h1 className='PID'><u>Projects In Development</u></h1>
+      <ol className='POL'>
         <li>Zelcore.Finance</li>
         <li>Nosapp.app</li>
       </ol>

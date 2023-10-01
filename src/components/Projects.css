@@ -1,0 +1,63 @@
+.pContainer {
+    background-image: url('./images/symEye.png');
+    background-size: 50px;
+    border-radius: 16px;
+}
+
+.Projects {
+    background: gold;
+    border-radius: 16px;
+    color: purple;
+}
+
+.PID {
+    background: gold;
+    border-radius: 16px;
+    color: purple;
+}
+
+.POL {
+    background: gold;
+    border-radius: 16px;
+    color: purple;
+    list-style: none;
+    font-weight: 900;
+    font-size: 1.4em;
+}
+/*
+@media all and (min-width: 1020px) {
+
+    .pContainer {
+        background-image: url('./images/symEye.png');
+        background-size: 100px;
+        border-radius: 16px;
+    }
+
+    .Projects {
+        color: gold;
+        border-radius: 16px;
+        background: purple;
+        font-size: 3.5em;
+    }
+    
+    .PID {
+        color: gold;
+        border-radius: 16px;
+        background: purple;
+        font-size: 3.5em;
+    }
+    
+    .POL {
+        background: gold;
+        border-radius: 16px;
+        color: purple;
+        list-style: none;
+        font-weight: 900;
+        font-size: 2.4em;
+    }
+
+
+} */
+
+
+

@@ -1,0 +1,68 @@
+.cContainer {
+    background-image: url(./images/eye2.png);
+    background-size: 50px;
+    border-radius: 1.5em;;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.Contact {
+    background-color: purple;
+    color: gold;
+    border-radius: 1.5em;
+}
+
+.anchor {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.eButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: purple;
+    background-color: gold;
+    font-weight: 900;
+    font-size: 1.2em;
+    padding: .6em 1em;
+    border-radius: 1.4em;
+}
+
+@media all and (min-width: 1022px) {
+
+    .cContainer {
+        background-image: url(./images/eye2.png);
+        background-size: 100px;
+        border-radius: 1.5em;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .Contact {
+        background-color: purple;
+        color: gold;
+        border-radius: 1.5em;
+        font-size: 3em;
+    }
+    
+    .anchor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .eButton {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: purple;
+        background-color: gold;
+        font-weight: 900;
+        font-size: 1.2em;
+        padding: .6em 1em;
+        border-radius: 1.4em;
+    }
+    
+}

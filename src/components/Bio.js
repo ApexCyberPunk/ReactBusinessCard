@@ -7,7 +7,7 @@ const Bio = () => {
       <h1 className='BioTitle'>About Me</h1>
       <p className='BioSummary'><p>Code = paintbrush</p>
         <p>Computer = canvas!</p>
-        <h2>Interests</h2> 
+        <h2>Interests</h2>
         <ul>
           <li>AI</li>
           <li>Jetson Nano</li>
@@ -15,7 +15,7 @@ const Bio = () => {
           <li>Robotics</li>
         </ul>
         To those who support and collab with me: Eye see you and Eye love you!
-        Love light and healing energy to you!
+        Love light and healing energy to you! Below is my growing tech stack e.g.(languages and frameworks)
       </p>
     </div>
   )

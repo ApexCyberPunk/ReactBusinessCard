@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css'
 
 const Contact = () => {
 
@@ -8,11 +9,11 @@ return window.location.href = "mailto:codingndevelopment@gmail.com"
 
   return (
     <>
-       <div>
-      <h1>Contact:</h1>
-    <a href='www.fiverr.com'><img width='100px' alt='fiverr' src={require("./images/fiver.jpg")}></img></a>
+       <div className='cContainer'>
+      <h1 className='Contact'>Contact:</h1>
+    <a className='anchor' href='www.fiverr.com'><img width='100px' alt='fiverr' src={require("./images/fiver.jpg")}></img></a>
+    <button className='eButton' onClick={SendEmail}>Email</button>
     </div>
-    <button onClick={SendEmail}>Email</button>
     </>
 
   )
