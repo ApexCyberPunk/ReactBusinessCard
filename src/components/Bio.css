@@ -1,0 +1,103 @@
+* {
+    text-align: center;
+}
+.BioContainer {
+    text-align: center;
+    background-image: url(./images/colorfulsym.png);
+    background-size: 100px;
+    color: gold;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.BioTitle {
+    background-color: gold;
+    color: purple;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 38px;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 70px;
+}
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    background-color: purple;
+    padding: 0 5px;
+    border-radius: 20px;
+}
+
+h2 {
+    background-color: gold;
+    color: purple;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+@media all and (min-width: 765px) {
+
+    * {
+        text-align: center;
+    }
+    .BioContainer {
+        text-align: center;
+        background-image: url(./images/colorfulsym.png);
+        background-size: 100px;
+        color: gold;
+        font-size: 18px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    .BioTitle {
+        background-color: gold;
+        color: purple;
+        border-radius: 40px;
+        padding: 5px 10px;
+        margin-left: 250px;
+        margin-right: 250px;
+        font-size: 38px;
+        text-decoration: underline;
+    }
+    
+    img {
+        border-radius: 70px;
+    }
+    h2 {
+        text-decoration: underline;
+    }
+    
+    p {
+        background-color: purple;
+        padding: 0 5px;
+        border-radius: 20px;
+    }
+    
+    h2 {
+        background-color: gold;
+        color: purple;
+        margin-left: 250px;
+        margin-right: 250px;
+        border-radius: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin-right: 35px;
+    }
+    
+}
