@@ -1,0 +1,38 @@
+
+@media all and (min-width: 760px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-areas:
+        "B B B B"
+        "C P S S"
+        "T T T T"
+        ;
+    }
+
+    .grid1-Bio {
+        grid-area: B;
+
+    }
+    .grid2-Contact {
+        grid-area: C;
+
+    }
+    .grid3-Projects {
+        grid-area: P;
+
+    }
+    .grid4-Socials {
+        grid-area: S;
+
+    }
+    .grid5-Tech {
+        grid-area: T;
+
+    }
+
+
+}

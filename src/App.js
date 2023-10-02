@@ -3,6 +3,7 @@ import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Socials from './components/Socials'
 import Tech from './components/Tech'
+import "./App.css"
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
     <div className='grid2-Contact'>
       <Contact />
     </div>
-
+  
     <div className='grid3-Projects'>
       <Projects />
     </div>
