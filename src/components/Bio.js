@@ -7,6 +7,12 @@ const Bio = () => {
       <h1 className='BioTitle'>About Me</h1>
       <p className='BioSummary'><p>Code = paintbrush</p>
         <p>Computer = canvas!</p>
+        <span>السلام ، أنا توماس</span>
+        <p>שלום, אני תומאס</p>
+        <p>
+        Peace, I'm Thomas, your personal
+        web developing assistant. You have an idea, and want it made.
+        I will support you in that endeavor.</p>
         <h2>Interests</h2>
         <ul>
           <li>AI</li>
@@ -14,8 +20,6 @@ const Bio = () => {
           <li>Arduino</li>
           <li>Robotics</li>
         </ul>
-        To those who support and collab with me: Eye see you and Eye love you!
-        Love light and healing energy to you! Below is my growing tech stack e.g.(languages and frameworks)
       </p>
     </div>
   )
