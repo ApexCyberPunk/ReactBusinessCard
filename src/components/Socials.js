@@ -1,10 +1,11 @@
 import React from 'react'
+import './Socials.css'
 
 const Socials = () => {
   return (
-    <div>
-      <h1><u>Socials:</u>
-      <p><a href= "https://github.com/snovacain" rel="noreferrer" target="_blank"><span className= "name"> <i className="fab fa-github"></i> </span></a></p>
+    <div className='SocialContainer'>
+      <h1 className='SocialClass'><u>Socials:</u>
+      <p className='SocialIcons'><a href= "https://github.com/snovacain" rel="noreferrer" target="_blank"><span className= "name"> <i className="fab fa-github fa-lg"></i> </span></a></p>
       </h1>
     </div>
   )

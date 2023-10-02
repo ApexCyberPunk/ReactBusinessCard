@@ -1,0 +1,43 @@
+
+li {
+    list-style-type: none;
+}
+
+.ListSection {
+    background: url(./images/Ruler.png);
+    background-size: 100px;
+    border-radius: 25px;
+}
+
+.list {
+    background-color: purple;
+    opacity: .9;
+    border-radius: 25px;
+}
+
+.TechTitle {
+    background-color: purple;
+    border-radius: 25px;
+    opacity: .9;
+    color: gold;
+}
+
+.ListSection {
+
+
+
+}
+
+.OlTitle {
+color: gold;
+font-size: 1.4em;
+text-align: center;
+margin-right: 35px;
+}
+
+.subTitle {
+margin-left: 60px;
+margin-right: 60px;
+padding-top: 1px;
+padding-bottom: 2px;
+}

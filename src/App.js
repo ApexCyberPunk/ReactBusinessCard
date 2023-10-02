@@ -7,25 +7,25 @@ import Tech from './components/Tech'
 function App() {
   return (
     <>
-<div className='g-container'>
+<div className='container'>
 
-    <div className='g-B'>
+    <div className='grid1-Bio'>
       <Bio />
     </div>
 
-    <div className='g-C'>
+    <div className='grid2-Contact'>
       <Contact />
     </div>
 
-    <div className='g-P'>
+    <div className='grid3-Projects'>
       <Projects />
     </div>
 
-    <div className='g-S'>
+    <div className='grid4-Socials'>
       <Socials />
     </div>
 
-    <div className='g-T'>
+    <div className='grid5-Tech'>
       <Tech />
     </div>
 

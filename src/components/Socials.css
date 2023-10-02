@@ -1,0 +1,25 @@
+.SocialContainer {
+    background-image: url(./images/RulerSim.png);
+    background-size: 100px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.SocialIcons {
+background-color: yellow;
+margin-left: 2.3em;
+margin-right: 2.3em;
+padding-top: .4em;
+padding-bottom: .4em;
+}
+
+.SocialClass {
+    background: purple;
+    color: yellow;
+    padding-bottom: .5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    opacity: .85;
+    border-radius: 30%;
+}
+

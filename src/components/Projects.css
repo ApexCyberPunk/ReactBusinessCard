@@ -8,12 +8,14 @@
     background: gold;
     border-radius: 16px;
     color: purple;
+    opacity: .87;
 }
 
 .PID {
     background: gold;
     border-radius: 16px;
     color: purple;
+    opacity: .87;
 }
 
 .POL {
@@ -23,6 +25,7 @@
     list-style: none;
     font-weight: 900;
     font-size: 1.4em;
+    opacity: .87;
 }
 /*
 @media all and (min-width: 1020px) {
